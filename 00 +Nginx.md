@@ -19,7 +19,8 @@
     apt install nginx
 
 - Install Nginx from Source Code:
-    ```sh apt update
+    ```sh 
+    apt update
     ```
     ```sh 
     wget (+link from nginx.org)
