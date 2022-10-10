@@ -41,19 +41,25 @@
     ```sh 
     apt install libpcre3 libpcre3-dev zlib1g  zlib1g-dev libssl-dev
     ```
+    * To find all flags and modules use command:
+    ```sh
+    ./configre --help
+    ```
     * Configure nginx with flags:
     ```sh 
     ./configre --sbin-path=/usr/bin/nginx --conf-path=/etc/nginx/nginx.conf --error-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --with-pcre --pid-path=/var/run/nginx.pid  --modules-path=/etc/nginx/modules
     ```
     > Note: you can add flags for dynamic modules in last command
-
-    > To find all flags and modules use command  ./configre --help
     ```sh
     make
     ```
     ```sh
     make install
     ```
+    > Note: After run make command to configure dynamic module you may find error : you may need to install packages
+
+    > You also need to remove unnecessary module which install by default: they start with flag --without
+    
 
 - You need to add Nginx service (systemd service)
     ```sh
