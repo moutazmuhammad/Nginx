@@ -57,6 +57,11 @@
     ```sh
     make install
     ```
+    > You can find dynamic modules by run:
+    ```sh
+    ./configre --help | grep dynamic
+    ```
+    
     > Note: After run make command to configure dynamic module you may find error : you may need to install packages
 
     > You also need to remove unnecessary module which install by default: they start with flag --without
