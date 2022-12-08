@@ -13,14 +13,14 @@
 
 - Install Nginx through package manager:
     ```sh
-     apt update 
+     sudo apt update 
     ```
     ```sh
-    apt install nginx
+    sudo apt install nginx
 
 - Install Nginx from Source Code:
     ```sh 
-    apt update
+    sudo apt update
     ```
     ```sh 
     wget (+link from nginx.org)
@@ -36,11 +36,11 @@
     ```
     * This for install compilar and development tools:
     ```sh 
-    apt install build-essential
+    sudo apt install build-essential
     ```
     * This to install dependences for nginx:
     ```sh 
-    apt install libpcre3 libpcre3-dev zlib1g  zlib1g-dev libssl-dev
+    sudo apt install libpcre3 libpcre3-dev zlib1g  zlib1g-dev libssl-dev
     ```
     * To find all flags and modules use command:
     ```sh
@@ -48,7 +48,7 @@
     ```
     * Configure nginx with flags:
     ```sh 
-    ./configre --sbin-path=/usr/bin/nginx --conf-path=/etc/nginx/nginx.conf --error-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --with-pcre --pid-path=/var/run/nginx.pid  --modules-path=/etc/nginx/modules
+    ./configre --sbin-path=/usr/bin/nginx --conf-path=/etc/nginx/nginx.conf --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --with-pcre --pid-path=/var/run/nginx.pid  --modules-path=/etc/nginx/modules
     ```
     > Note: you can add flags for dynamic modules in last command
     ```sh
