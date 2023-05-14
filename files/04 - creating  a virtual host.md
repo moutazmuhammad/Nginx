@@ -39,7 +39,7 @@ systemctl reload nginx
 ```
 curl -I http://167.99.98.25/style.css
 ```
-![alt text](./images/8.png)
+![alt text](./images/9.png)
 
 - So to fix this,  Nginx allows us to include pieces of configuration from separate files. And one of those files that already exist is the `mime.types` file in `/etc/nginx`.
 - `mime.types` Contains that very type's context we just created, but with a much more complete selection of mime types already defined, including variations of file extensions such as jpeg and jpg.
@@ -52,4 +52,4 @@ include mime.types;
 ```
 systemctl reload nginx 
 ```
-
+![alt text](./images/10.png)
