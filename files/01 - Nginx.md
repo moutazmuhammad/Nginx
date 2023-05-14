@@ -20,7 +20,7 @@
 
 ![alt text](./images/4.png)
 
-- Instead, Ingenix will handle serving static resources without ever knowing about it, whereas Apache will handle every request with that costly overhead.
+- Instead, Nginx will handle serving static resources without ever knowing about it, whereas Apache will handle every request with that costly overhead.
 
 ![alt text](./images/5.png)
 
