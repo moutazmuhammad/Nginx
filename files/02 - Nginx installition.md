@@ -15,14 +15,14 @@ sudo su
 - Update the Ubuntu's package manager
 
 ```
-apt-get update 
+apt update 
 ```
 
 ### Install Dependencies
 
 - Run this command to install Nginx dependencies
 ```
-sudo apt update -y && apt-get install git build-essential libpcre3 libpcre3-dev zlib1g zlib1g-dev libssl-dev libgd-dev libxml2 libxml2-dev uuid-dev
+apt update -y && apt-get install git build-essential libpcre3 libpcre3-dev zlib1g zlib1g-dev libssl-dev libgd-dev libxml2 libxml2-dev uuid-dev
 ```
 
 ### Download Nginx Source Code
