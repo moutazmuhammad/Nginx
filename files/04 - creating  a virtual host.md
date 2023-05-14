@@ -52,3 +52,4 @@ include mime.types;
 ```
 systemctl reload nginx 
 ```
+
