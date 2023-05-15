@@ -1,4 +1,4 @@
-# [Variables](../03%2BVariables.conf)
+# [Variables](../Code/03%2BVariables.conf)
 
 ### variables exist in two forms:
 - variables we set ourselves.

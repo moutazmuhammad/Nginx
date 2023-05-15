@@ -14,7 +14,7 @@ server {
 
 - So let's see how to use a custom location context and intercept that greet request and give it some hypothetical purpose.
 
-- Back to the Nginx [configuration file](../02%2BLocation%2BBlocks.conf) adding location context inside the server context.
+- Back to the Nginx [configuration file](../Code/02%2BLocation%2BBlocks.conf) adding location context inside the server context.
 
 
 ## The Order Of Priority:

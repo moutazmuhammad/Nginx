@@ -1,4 +1,4 @@
-# [Rewrite and Redirect](../04%2BRewrites%2B%26%2BRedirects.conf)
+# [Rewrite and Redirect](../Code/04%2BRewrites%2B%26%2BRedirects.conf)
 
 - The two directives we can use for rewriting requests is the `rewrite directive` and the `return directive`.
 ```
