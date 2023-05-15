@@ -1,4 +1,4 @@
-# [Creating a basic virtual host](../01%2BCreating%2Ba%2BVirtual%2BHost.conf)
+# [Creating a basic virtual host](../Code/01%2BCreating%2Ba%2BVirtual%2BHost.conf)
 
 ### creating a basic virtual host to serve static files from a directory on our server.
 - To demonstrate this, I've created a directory called Sites [demo-site](../demo-site.zip) at the root of my server 
