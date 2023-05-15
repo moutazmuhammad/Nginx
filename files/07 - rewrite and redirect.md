@@ -63,3 +63,11 @@ rewrite ^/user/(\w+) /greet/$1;
 ```
 rewrite /greet/moutaz /thumb.png;
 ```
+
+
+## Don't allow a URI to be rewritten anymore using `last`
+
+```
+rewrite ^/user/(\w+) /greet/$1 last;
+```
+
