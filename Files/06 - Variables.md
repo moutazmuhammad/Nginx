@@ -18,3 +18,10 @@ $http , $uri, $args
 
 # Condition
 > Note that the use of Nginx conditionals inside location contexts is highly discouraged, as this can lead to some very unexpected behavior.
+
+
+
+### `Links`
+- [If is Evil](https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/)
+
+- [variables](http://nginx.org/en/docs/varindex.html)

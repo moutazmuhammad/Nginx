@@ -71,3 +71,5 @@ rewrite /greet/moutaz /thumb.png;
 rewrite ^/user/(\w+) /greet/$1 last;
 ```
 
+### `Links`
+- [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)

@@ -50,4 +50,7 @@ location /secure {
     }
 ```
 
-[check advance options for logging](https://docs.nginx.com/nginx/admin-guide/monitoring/logging/)
+### `Links`
+- [Configuring Logging](https://docs.nginx.com/nginx/admin-guide/monitoring/logging/)
+- [Module ngx_http_log_module](http://nginx.org/en/docs/http/ngx_http_log_module.html)
+- [error_log](http://nginx.org/en/docs/ngx_core_module.html#error_log)

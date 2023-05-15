@@ -122,3 +122,9 @@ service nginx stop
 ```
 service nginx reload
 ```
+
+
+### `Links`
+
+- [NGINX Init Scripts](https://www.nginx.com/resources/wiki/start/topics/examples/initscripts/)
+- [nginx for Windows](http://nginx.org/en/docs/windows.html)
