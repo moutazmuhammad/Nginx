@@ -41,4 +41,5 @@ ssl_certificate_key /etc/nginx/ssl/self.key;
 
 ## `Links`
 - [How To Create a Self-Signed SSL Certificate for Nginx in Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-16-04)
-
+- [Nghttp2: HTTP/2 C Library](https://nghttp2.org/)
+- [Introducing HTTP/2 Server Push with NGINX 1.13.9](https://www.nginx.com/blog/nginx-1-13-9-http2-server-push/)
