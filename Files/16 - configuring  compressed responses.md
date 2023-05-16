@@ -28,3 +28,5 @@ gzip_types text/css text/javascript;
 
 # SEE VIDEO AGAIN
 
+## `Links`
+- [Module ngx_http_gzip_module](http://nginx.org/en/docs/http/ngx_http_gzip_module.html)
