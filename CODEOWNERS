@@ -1,6 +1,0 @@
-# This is a sample CODEOWNERS file managed by Terraform
-# Each line represents a pattern and the owners of the files that match the pattern
-
-# Example:
-# /docs/*    @documentation-team
-# /app/*     @engineering-team
